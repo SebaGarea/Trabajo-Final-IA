@@ -1,0 +1,90 @@
+/* Custom CSS for Inventos Destacados por País */
+
+/* Main container styling */
+.main {
+    padding: 2rem;
+}
+
+/* Header styling */
+h1 {
+    color: #1E88E5;
+    font-weight: 700;
+}
+
+h2 {
+    color: #0D47A1;
+    font-weight: 600;
+}
+
+h3 {
+    color: #1565C0;
+    font-weight: 500;
+}
+
+/* Sidebar styling */
+.sidebar .sidebar-content {
+    background-color: #f5f7f9;
+}
+
+/* Button styling */
+.stButton>button {
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Success message styling */
+.success {
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Info box styling */
+.stInfo {
+    border-left: 5px solid #1E88E5;
+    padding-left: 1rem;
+}
+
+/* Divider styling */
+hr {
+    margin: 2rem 0;
+    border-color: #e0e0e0;
+}
+
+/* Invention information styling */
+.invention-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1E88E5;
+    margin-bottom: 0.5rem;
+}
+
+.invention-info {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+/* Caption styling */
+.caption {
+    font-size: 0.8rem;
+    color: #757575;
+    font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+}
